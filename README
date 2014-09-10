@@ -19,7 +19,7 @@ input: readal.out,
 output: table of gene summary stats (blattabacteriaGeneSummary.txt, column names: gene, alignment length)
 
 #Selection tests in HYPHY
-syntax: cat blattabacteriaGenes.txt | hyphy <blattabacteriaBatchFileWrapper.bf>
+syntax: cat blattabacteriaGenes.txt | hyphy *.bf > *.hyphy.out
 dependencies:
 	HYPHY v2.2.1 (https://github.com/veg/hyphy)
 Batch file wrappers:
