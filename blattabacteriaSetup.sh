@@ -23,7 +23,7 @@ for f in $FILES
 	readal -in $f.phy -out $f.afa -fasta
 
 	##run each tree in phyml: assume HKY85 for all genes (test other model options later?)
-	phyml -i $f.phy 
+	phyml --quiet -i $f.phy 
 	##output is _phyml_stats.txt and _phyml_tree.txt
 
 	##create hyphy input file (alignment + tree)
