@@ -1,20 +1,10 @@
 fileToExe = "/usr/local/lib/hyphy/TemplateBatchFiles/BUSTED.bf";
 
-_inDirectoryPaths = {};
-fscanf (stdin, "String", x);
-i = 0;
-_inDirectoryPaths[i] = x;
+fscanf ( "/Users/kate/Desktop/Austin/genes/blattabacteriaGenes.txt", "Lines", _inDirectoryPaths );
+ 
+fprintf (stdout, "[READ ", Columns (_inDirectoryPaths), " file path lines]\n");
 
-while(x != 0) {
-  x = 0;
-  fscanf (stdin, "String", x);
-  _inDirectoryPaths[i] = x;
-  i = i + 1;
-}
-
-_fileLine = 0;
 inputRedirect = {};
-
 inputRedirect["01"]="Universal";
 inputRedirect["03"]="y";
 inputRedirect["04"]="All";
