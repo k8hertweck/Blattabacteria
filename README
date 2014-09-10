@@ -9,12 +9,13 @@ dependencies:
 	trimal and readal http://trimal.cgenomics.org
 	phyml http://atgc.lirmm.fr/phyml/
 input: one unaligned fasta file for each gene (*.fas)
-output: input file for HYPHY (*.hyphy) for each gene, summary stats for each gene alignment and tree, list of complete paths to each gene's *.hyphy file
+output: input file for HYPHY (*.hyphy) for each gene, summary stats for each gene alignment and tree, list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt)
 
 #HYPHY batch files for selection tests
-syntax: cat <FileWithGenePaths> | hyphy <blattabacteriaBatchFileWrapper.bf>
+syntax: cat blattabacteriaGenes.txt | hyphy <blattabacteriaBatchFileWrapper.bf>
 dependencies:
 	HYPHY v2.2.1 (https://github.com/veg/hyphy)
 Batch file wrappers:
 	blattabacteriaBUSTED.bf
-
+	blattabacteriaQSD.bf
+	blattabacteriaBranchSiteREL.bf
