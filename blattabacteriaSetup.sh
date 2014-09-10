@@ -1,14 +1,3 @@
-###Blattabacterium pipeline: gene alignment, cleanup, tree building, and data summary
-##Authors: Kate Hertweck and Austin Alleman, The University of Texas at Tyler
-##syntax: blattabacteriumSetup.sh <path to file with *.fas files>
-##dependencies: 
-##	prinseq-lite (prinseq-lite.pl) http://prinseq.sourceforge.net
-##	translatorx (translatorx_vLocal.pl) http://translatorx.co.uk
-##	trimal and readal http://trimal.cgenomics.org
-##	phyml http://atgc.lirmm.fr/phyml/
-##input: one unaligned fasta file, one for each gene (*.fas)
-##output: input file for HYPHY (*.hyphy) for each gene and summary stats for each gene alignment and tree
-
 #!/bin/bash
 
 FILES=*.fas
