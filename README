@@ -1,7 +1,9 @@
 Blattabacteria pipeline: gene alignment, cleanup, tree building, and data summary
 Authors: Austin Alleman and Kate Hertweck, The University of Texas at Tyler
 
-#blattabacteriaSetup.sh
+Run scripts in order as they appears below.
+
+#Gene alignment, trimming, phylogeny building
 syntax: blattabacteriaSetup.sh <path to file with *.fas files>
 dependencies: 
 	prinseq-lite (prinseq-lite.pl) http://prinseq.sourceforge.net
@@ -9,9 +11,14 @@ dependencies:
 	trimal and readal http://trimal.cgenomics.org
 	phyml http://atgc.lirmm.fr/phyml/
 input: one unaligned fasta file for each gene (*.fas)
-output: input file for HYPHY (*.hyphy) for each gene, summary stats for each gene alignment and tree, list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt)
+output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt) and folder for each gene containing variety of files (including *.hyphy)
 
-#HYPHY batch files for selection tests
+#Gene alignment and tree summaries
+syntax: blattabacteriaGeneSummary.sh
+input:
+output: 
+
+#Selection tests in HYPHY
 syntax: cat blattabacteriaGenes.txt | hyphy <blattabacteriaBatchFileWrapper.bf>
 dependencies:
 	HYPHY v2.2.1 (https://github.com/veg/hyphy)
@@ -19,3 +26,10 @@ Batch file wrappers:
 	blattabacteriaBUSTED.bf
 	blattabacteriaQSD.bf
 	blattabacteriaBranchSiteREL.bf
+input: *.hyphy for each gene (fasta alignment with tree appended), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt)
+output: 
+	
+#Selection test summaries
+syntax: blattabacteriaSelectionSummary.sh
+input:
+output:
