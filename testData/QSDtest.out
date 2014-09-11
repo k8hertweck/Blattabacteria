@@ -1,4 +1,4 @@
-Kates-MacBook-Pro:genes kate$ hyphy ../hyphyBatchFiles/test.hyphy 
+[READ 10 file path lines]
 
 
 A tree was found in the data file:
@@ -2889,5 +2889,3 @@ Significance level for a site to be classified as positively/negatively selected
 +--------------+--------------+--------------+--------------+
 |          101 |   565.000000 |    -5.777890 |     0.004270 |
 +--------------+--------------+--------------+--------------+
-
-Check messages.log details of this run.

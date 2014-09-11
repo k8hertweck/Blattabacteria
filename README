@@ -26,7 +26,7 @@ Batch file wrappers:
 	blattabacteriaBUSTED.bf
 	blattabacteriaQSD.bf
 	blattabacteriaBranchSiteREL.bf
-input: *.hyphy for each gene (fasta alignment with tree appended), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), *.bf file with fileToExe modified to reflect installation of HYPHY on your computer
+input: *.hyphy for each gene (fasta alignment with tree appended), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), *.bf file with complete paths to fileToExe and blattabacteriaGenes.txt modified to reflect your computer
 output: 
 	
 #Selection test summaries
