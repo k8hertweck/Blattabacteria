@@ -1,7 +1,7 @@
 Blattabacteria pipeline: gene alignment, cleanup, tree building, and data summary
 Authors: Austin Alleman and Kate Hertweck, The University of Texas at Tyler
 
-Run scripts in order as they appears below.
+Run scripts in order as they appears below. testData folder contains example intermediate output for debugging and script building.
 
 #Gene alignment, trimming, phylogeny building
 syntax: blattabacteriaSetup.sh <path to file with *.fas files>
@@ -16,7 +16,7 @@ output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.
 #Gene alignment and tree summaries
 syntax: blattabacteriaGeneSummary.sh
 input: readal.out, 
-output: table of gene summary stats (blattabacteriaGeneSummary.txt, column names: gene, alignment length)
+output: table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, treeLength)
 
 #Selection tests in HYPHY
 syntax: cat blattabacteriaGenes.txt | hyphy *.bf > *.hyphy.out
@@ -26,10 +26,10 @@ Batch file wrappers:
 	blattabacteriaBUSTED.bf
 	blattabacteriaQSD.bf
 	blattabacteriaBranchSiteREL.bf
-input: *.hyphy for each gene (fasta alignment with tree appended), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt)
+input: *.hyphy for each gene (fasta alignment with tree appended), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), *.bf file with fileToExe modified to reflect installation of HYPHY on your computer
 output: 
 	
 #Selection test summaries
 syntax: blattabacteriaSelectionSummary.sh
-input:
-output:
+input: blattabacteriaGeneSummary.txt (from blattabacteriaGeneSummary.sh), output from selection tests
+output: blattabacteriaSelectionSummary.txt
