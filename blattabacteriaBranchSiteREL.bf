@@ -1,6 +1,6 @@
-fileToExe = "/usr/local/lib/hyphy/TemplateBatchFiles/BranchSiteREL.bf";
+fileToExe = "/PATH/TO/FILE/BranchSiteREL.bf";
 
-fscanf ( "/Users/kate/Desktop/Austin/genes/blattabacteriaGenes.txt", "Lines", _inDirectoryPaths );
+fscanf ( "/PATH/TO/FILE/blattabacteriaGenes.txt", "Lines", _inDirectoryPaths );
  
 fprintf (stdout, "[READ ", Columns (_inDirectoryPaths), " file path lines]\n");
 

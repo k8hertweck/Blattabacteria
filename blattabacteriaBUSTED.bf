@@ -1,6 +1,6 @@
-fileToExe = "/usr/local/lib/hyphy/TemplateBatchFiles/BUSTED.bf";
+fileToExe = "/PATH/TO/FILE/TemplateBatchFiles/BUSTED.bf";
 
-fscanf ( "/Users/kate/Desktop/Austin/genes/blattabacteriaGenes.txt", "Lines", _inDirectoryPaths );
+fscanf ( "/PATH/TO/FILE/blattabacteriaGenes.txt", "Lines", _inDirectoryPaths );
  
 fprintf (stdout, "[READ ", Columns (_inDirectoryPaths), " file path lines]\n");
 
