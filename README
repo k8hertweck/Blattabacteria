@@ -33,3 +33,6 @@ output:
 syntax: blattabacteriaSelectionSummary.sh
 input: blattabacteriaGeneSummary.txt (from blattabacteriaGeneSummary.sh), output from selection tests
 output: blattabacteriaSelectionSummary.txt
+
+#16S tree
+This is just a note about the parameters used to run the 16S tree; sequence alignment conversion was run separately (not in script)
