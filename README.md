@@ -1,4 +1,7 @@
-Blattabacteria pipeline: gene alignment, cleanup, tree building, and data summary
+Blattabacteria 
+==============
+pipeline: gene alignment, cleanup, tree building, and data summary
+
 Authors: Austin Alleman and Kate Hertweck, The University of Texas at Tyler
 
 Run scripts in order as they appears below. testData folder contains example intermediate output for debugging and script building.
