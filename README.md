@@ -10,8 +10,8 @@ Run scripts in order as they appears below. testData folder contains example int
 syntax: blattabacteriaSetup.sh <path to file with *.fas files>
 
 dependencies: 
-* prinseq-lite (prinseq-lite.pl) http://prinseq.sourceforge.net
-* translatorx (translatorx_vLocal.pl) http://translatorx.co.uk
+* prinseq-lite (prinseq-lite.pl, installed as the executable prinseq-lite) http://prinseq.sourceforge.net
+* translatorx (translatorx_vLocal.pl, installed as the executable translatorx) http://translatorx.co.uk
 * trimal and readal http://trimal.cgenomics.org
 * phyml http://atgc.lirmm.fr/phyml/
 
