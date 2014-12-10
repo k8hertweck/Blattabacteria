@@ -22,8 +22,8 @@ for f in $FILES
 	readal -in $f.phy -info >> ../readal.out
 	readal -in $f.phy -out $f.afa -fasta
 
-	##run each tree in phyml: assume HKY85 for all genes (test other model options later?)
-	phyml --quiet -i $f.phy 
+	##run each tree in phyml under GTR+G
+	phyml -m GTR -f m -c 4 -a e -o tlr -s NNI --quiet -i $f.phy 
 	##output is _phyml_stats.txt and _phyml_tree.txt
 
 	##create hyphy input file (alignment + tree)
