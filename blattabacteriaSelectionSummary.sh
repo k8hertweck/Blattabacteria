@@ -7,10 +7,12 @@
 grep "SELECTED SITES" blattabacteriaQSD.out | cut -f3 -d " " | paste -d " " - - | tr "NO" "0" | awk 'BEGIN{print "negative\tpositive}1' | paste blattabacteriaGeneSummary.txt > temp
 
 ##BranchSiteREL
+##pull out lines referencing branches under positive selection? need examples of significant results
 #grep "p <=" blattabacteriaBranchSiteREL.out | 
 
 #add to blattabacteriaSelectionSummary.txt
 
 ##BUSTED
+##pull out lines referencing branches under positive selection
 
 #rm <extraneous files>
