@@ -48,7 +48,7 @@ join temp3 Blat.GC | join - Flav.GC > temp5
 for f in $FILES
 	do
 	egrep "\. Parsimony:" $f/*.phy_phyml_stats.txt | tr -d ". Parsimony:\t" 
-done | awk 'BEGIN{print "treeLength"}1' | paste temp5 - > blattabacteriaGeneSummary.csv
+done | awk 'BEGIN{print "treeLength"}1' | paste -d " " temp5 - > blattabacteriaGeneSummary.csv
 
 rm temp*
 
