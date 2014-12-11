@@ -23,9 +23,9 @@ output: folder for each gene containing variety of files (including *.hyphy)
 
 syntax: blattabacteriaGeneSummary.sh
 
-input: readal.out, 
+input: output from blattabacteriaSetup.sh, including readal.out and folder for each gene 
 
-output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, treeLength)
+output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, BlatGC, FlavGC, treeLength)
 
 #Selection tests in HYPHY
 syntax: e.g., hyphy blattabacteriaQSD.bf > blattabacteriaQSD.out
