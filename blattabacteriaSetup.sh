@@ -24,6 +24,7 @@ for f in $FILES
 
 	##run each tree in phyml under GTR+G
 	phyml -m GTR -f m -c 4 -a e -o tlr -s NNI --quiet -i $f.phy 
+	phyml -b 100 -m GTR -f m -c 4 -a e -o tlr -s NNI -run_id BS --quiet -i *.phy 
 	##output is _phyml_stats.txt and _phyml_tree.txt
 
 	##create hyphy input file (alignment + tree)
