@@ -25,5 +25,9 @@ done
 cd ../speciesTree
 grep -v B2 geneTrees.tre > geneTreesASTRAL.tre
 
-## run ASTRAL
+## run ASTRAL (just finding best tree)
 java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre
+
+## run ASTRAL with bootstrapping
+ls ../gene/*/*.fas.phy_phyml_boot_trees_BS.txt > geneBSfiles.txt
+java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre -b geneBSfiles.txt -r 100
