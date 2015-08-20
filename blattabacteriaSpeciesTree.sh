@@ -21,13 +21,22 @@ for f in $FILES
 		mv ../speciesTree/temp ../speciesTree/geneTrees.tre
 done
 
+## make input list of bootstrap files for ASTRAL
+ls $PWD/gene*/*.fas.phy_phyml_boot_trees_BS.txt > ../speciesTree/geneBSfiles.txt
+grep -v 052mia geneBSfiles
+
 ## remove 052mia because of duplication
 cd ../speciesTree
 grep -v B2 geneTrees.tre > geneTreesASTRAL.tre
+grep -v 052mia geneBSfiles.txt > geneBSASTRAL.txt
 
 ## run ASTRAL (just finding best tree)
-java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre
+java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre > speciesTreeASTRAL.tre
 
 ## run ASTRAL with bootstrapping
-ls ../gene/*/*.fas.phy_phyml_boot_trees_BS.txt > geneBSfiles.txt
-java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre -b geneBSfiles.txt -r 100
+java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre -b geneBSASTRAL.txt -r 100 > speciesTreeBSASTRAL.tre
+## pull out consensus BS tree
+tail -1 speciesTreeBSASTRAL.tre > ASTRALBSconsensus.tre
+## pull out main ASTRAL tree with BS values
+tail -2 speciesTreeBSASTRAL.tre | head -1 > speciesTreeASTRALwithBS.tre
+
