@@ -1,47 +1,64 @@
 ## visualization of Blattabacteria trees
 
+## reroot trees in FigTree prior to import
+
 library(ape)
 library(phytools)
 
 setwd("~/Copy/Blattabacteria/")
 
 ## load name translation file
+names <- read.csv(file="blattabacteriaNames.csv", header=TRUE)
 
 ## 16S tree
 ribo <- read.tree(file="16S/Blattabacteria16S.phy_phyml_tree_GTRGbs.txt")
-plot(ribo)
-#outgroup16S <- c("EcUM146", "EcUMNK88", "EcCFT073", "EcSe11", "EcCloneDi1", "EcCloneDi2", "EcJJ1886", "EcNA114")
+plotTree(ribo, node.numbers=TRUE)
+## reroot tree
 ribo <- midpoint.root(ribo)
-plot(ribo)
+## modify bootstrap values
 bs <- ribo$node.label
 class(bs) <-"numeric"
 bs <- round(bs/10)
-bs[bs < 65] <- ""
-bs[1] <- ""
-bs[18] <- ""
+bs[bs < 65] <- "" #remove low bs values
+bs[1] <- "" #replace value at root
+bs[14] <- 100 #correct outgroup support from rerooting
+bs[15] <- 80 #correct outgroup support from rerooting
 ribo$node.label <- bs
+## trade names
+ribo$tip.label <- names$long[match(ribo$tip.label,names$short)]
+ribo$tip.label <- as.character(ribo$tip.label)
 
 ## ASTRAL tree
 astral <- read.tree(file="speciesTree/speciesTreeASTRALwithBS.tre")
-plot(astral)
-#outgroupAstral <- c("Fbranch", "Fjohn", "Fpsych", "Findic", "Fcolum")
+plotTree(astral, node.numbers=TRUE)
 astral$edge.length <- rep(1,nrow(astral$edge))
-plotTree(astral, node.numbers=TRUE) #root above node 15
-astral <- reroot(astral, 17, position=0.5) 
+astral <- reroot(astral, 19, position=0.5)
+## modify bootstrap values
 genebs <- astral$node.label
 class(genebs) <- "numeric"
-genebs[3] <- "100"
+genebs[1] <- "" #removing label from root
+genebs[2] <- 100 #correct support from rerooting
+genebs[3] <- 98 #correct outgroup support from rerooting
 astral$node.label <- genebs
-#rotate nodes to match between panels
+## rotate nodes to match between panels
+astral <- ladderize(astral)
+astral <- rotate(astral, 16)
+astral <- rotate(astral, 22)
+astral <- rotate(astral, 23)
+astral <- rotate(astral, 24)
+astral <- rotate(astral, 25)
+## trade names
+astral$tip.label <- names$long[match(astral$tip.label,names$short)]
+astral$tip.label <- as.character(astral$tip.label)
 
 ## create figures
-#pdf(file="figures/trees.pdf")
-par(mfrow=c(1,2))
+tiff(file="figures/BlattabacteriaTrees.tiff", height=150, width=183, units = 'mm', res = 300)
+par(mfrow=c(1,2), mar=c(1,1,1,1), oma=c(1,1,1,1))
 plot(ladderize(ribo))
-nodelabels(ribo$node.label, cex=0.6, adj=c(1.2,-0.4), frame="n")
+nodelabels(ribo$node.label, cex=0.7, adj=c(1.3,1.25), frame="n")
 add.scale.bar()
-mtext("A", side=3, line=2, adj=-0.2)
-plot(astral, use.edge.length=FALSE)
-nodelabels(astral$node.label, cex=1, adj=c(1.2,-0.4), frame="n")
-mtext("B", side=3, line=2, adj=-0.2)
-#dev.off()
+mtext("A", outer=TRUE, adj=0.05)
+plot(ladderize(astral), use.edge.length=FALSE)
+nodelabels(astral$node.label, cex=0.7, adj=c(1.15,1.25), frame="n")
+mtext("B", outer=TRUE, adj=0.55)
+dev.off()

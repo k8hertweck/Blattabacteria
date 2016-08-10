@@ -36,7 +36,6 @@ java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre > species
 ## run ASTRAL with bootstrapping
 java -jar /Applications/Astral/astral.4.7.8.jar -i geneTreesASTRAL.tre -b geneBSASTRAL.txt -r 100 > speciesTreeBSASTRAL.tre
 ## pull out consensus BS tree
-tail -1 speciesTreeBSASTRAL.tre > ASTRALBSconsensus.tre
+tail -2 speciesTreeBSASTRAL.tre | head -1 > ASTRALBSconsensus.tre
 ## pull out main ASTRAL tree with BS values
-tail -2 speciesTreeBSASTRAL.tre | head -1 > speciesTreeASTRALwithBS.tre
-
+tail -1 speciesTreeBSASTRAL.tre > speciesTreeASTRALwithBS.tre
