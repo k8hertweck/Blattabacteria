@@ -14,9 +14,9 @@ phyml -i Blattabacteria16S.phy -m GTR -f m -c 4 -a e -o tlr -s NNI --run_id GTRG
 ##bootstrap tree in phyml under GTR+G
 phyml -i Blattabacteria16S.phy -b 1000 -m GTR -f m -c 4 -a e -o tlr -s NNI --run_id GTRGbs
 
-##run each tree in phyml under HKY85
+##run tree in phyml under HKY85 (testing effects of other models)
 phyml -i Blattabacteria16S.phy -m HKY85 --run_id HKY
 
-##run tree in phyml under GTR
+##run tree in phyml under GTR (testing effects of other models)
 phyml -i Blattabacteria16S.phy -m GTR --run_id GTR
 
