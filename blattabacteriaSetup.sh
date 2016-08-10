@@ -27,6 +27,9 @@ for f in $FILES
 	phyml -b 100 -m GTR -f m -c 4 -a e -o tlr -s NNI -run_id BS --quiet -i *.phy 
 	##output is _phyml_stats.txt and _phyml_tree.txt
 
+	##run each tree in phyml under HKY (to test effect of different models)
+	phyml -m HKY85 --run_id HKY --quiet -i $f.phy 
+	
 	##create hyphy input file (alignment + tree)
 	cat $f.phy_phyml_tree.txt | tr -d ":.0123456789 " > $f.tre #simplify tree file 
 	echo "$(cat $f.afa $f.tre) ;" > $f.hyphy #combine alignment and treefile for entry to hyphy
