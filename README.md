@@ -1,10 +1,10 @@
 Blattabacteria 
 ==============
-pipeline: gene alignment, cleanup, tree building, and data summary
+gene alignment, cleanup, tree building, and data summary
 
 Authors: Austin Alleman and Kate Hertweck, The University of Texas at Tyler
 
-Run scripts in order as they appears below. testData folder contains example intermediate output for debugging and script building.
+Run scripts in order as they appears below. 
 
 ## Gene alignment, trimming, phylogeny building
 usage: `blattabacteriaSetup.sh <path to file with *.fas files>`
@@ -16,7 +16,8 @@ dependencies:
 * phyml http://atgc.lirmm.fr/phyml/
 
 input: one unaligned fasta file for each gene (*.fas)
-output: folder for each gene containing variety of files (including *.hyphy)
+
+output: all included in `analysis/`, folder for each gene containing variety of files (including *.hyphy)
 
 ## Gene alignment and tree summaries
 
@@ -24,7 +25,7 @@ usage: `blattabacteriaGeneSummary.sh`
 
 input: output from blattabacteriaSetup.sh, including readal.out and folder for each gene 
 
-output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, BlatGC, FlavGC, treeLength)
+output: all included in `analysis/`, list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, BlatGC, FlavGC, treeLength)
 
 ## Selection tests in HYPHY
 
@@ -34,13 +35,12 @@ dependencies:
 * HYPHY v2.2.1 (https://github.com/veg/hyphy)
 
 Batch file wrappers:
-* blattabacteriaBUSTED.bf
 * blattabacteriaQSD.bf
 * blattabacteriaBranchSiteREL.bf
 
 input: *.hyphy for each gene (fasta alignment with tree appended, located in gene directory), list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), *.bf file with complete paths to fileToExe and blattabacteriaGenes.txt modified to reflect your computer
 
-output: 
+output: all included in `analysis/`
 	
 ## Selection test summaries
 
