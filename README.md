@@ -7,7 +7,7 @@ Authors: Austin Alleman and Kate Hertweck, The University of Texas at Tyler
 Run scripts in order as they appears below. testData folder contains example intermediate output for debugging and script building.
 
 ## Gene alignment, trimming, phylogeny building
-syntax: blattabacteriaSetup.sh <path to file with *.fas files>
+usage: `blattabacteriaSetup.sh <path to file with *.fas files>`
 
 dependencies: 
 * prinseq-lite (prinseq-lite.pl, installed as the executable prinseq-lite) http://prinseq.sourceforge.net
@@ -16,19 +16,19 @@ dependencies:
 * phyml http://atgc.lirmm.fr/phyml/
 
 input: one unaligned fasta file for each gene (*.fas)
-
 output: folder for each gene containing variety of files (including *.hyphy)
 
 ## Gene alignment and tree summaries
 
-syntax: blattabacteriaGeneSummary.sh
+usage: `blattabacteriaGeneSummary.sh`
 
 input: output from blattabacteriaSetup.sh, including readal.out and folder for each gene 
 
 output: list of complete paths to each gene's *.hyphy file (blattabacteriaGenes.txt), table of gene summary stats (blattabacteriaGeneSummary.txt, tab delimited, column names: gene, alignLength, GC, BlatGC, FlavGC, treeLength)
 
 ## Selection tests in HYPHY
-syntax: e.g., hyphy blattabacteriaQSD.bf > blattabacteriaQSD.out
+
+usage: `hyphy blattabacteriaQSD.bf > blattabacteriaQSD.out`
 
 dependencies:
 * HYPHY v2.2.1 (https://github.com/veg/hyphy)
@@ -44,7 +44,7 @@ output:
 	
 ## Selection test summaries
 
-syntax: blattabacteriaSelectionSummary.sh
+usage: `blattabacteriaSelectionSummary.sh`
 
 input: blattabacteriaGeneSummary.txt (from blattabacteriaGeneSummary.sh), output from selection tests
 
