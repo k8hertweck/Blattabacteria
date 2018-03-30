@@ -1,0 +1,1608 @@
+## Input filename	'001nusA.fas.phy'
+## Total sequences	13
+## Alignment length	1233
+## Avg. sequence length	1233
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1233
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	1233
+## Input filename	'002infB.fas.phy'
+## Total sequences	13
+## Alignment length	2556
+## Avg. sequence length	2548.85
+## Longest seq. name	'Fbranch'
+## Longest seq. length	2556
+## Shortest seq. name	'Madar'
+## Shortest seq. length	2499
+## Input filename	'003aspS.fas.phy'
+## Total sequences	13
+## Alignment length	1695
+## Avg. sequence length	1693.85
+## Longest seq. name	'Orien'
+## Longest seq. length	1695
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1689
+## Input filename	'004ppa.fas.phy'
+## Total sequences	13
+## Alignment length	489
+## Avg. sequence length	488.769
+## Longest seq. name	'Fcolum'
+## Longest seq. length	489
+## Shortest seq. name	'Madar'
+## Shortest seq. length	486
+## Input filename	'005sucB.fas.phy'
+## Total sequences	13
+## Alignment length	1104
+## Avg. sequence length	1102.62
+## Longest seq. name	'Pane'
+## Longest seq. length	1104
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1089
+## Input filename	'008mreC.fas.phy'
+## Total sequences	13
+## Alignment length	744
+## Avg. sequence length	741
+## Longest seq. name	'Fbranch'
+## Longest seq. length	744
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	711
+## Input filename	'009mreB.fas.phy'
+## Total sequences	13
+## Alignment length	1023
+## Avg. sequence length	1021.38
+## Longest seq. name	'Findic'
+## Longest seq. length	1023
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1002
+## Input filename	'011argD.fas.phy'
+## Total sequences	13
+## Alignment length	1110
+## Avg. sequence length	1108.15
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1110
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1092
+## Input filename	'012truA.fas.phy'
+## Total sequences	13
+## Alignment length	729
+## Avg. sequence length	729
+## Longest seq. name	'Fcolum'
+## Longest seq. length	729
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	729
+## Input filename	'013msbA.fas.phy'
+## Total sequences	13
+## Alignment length	1704
+## Avg. sequence length	1702.62
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1704
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1689
+## Input filename	'014asnS.fas.phy'
+## Total sequences	13
+## Alignment length	1383
+## Avg. sequence length	1381.38
+## Longest seq. name	'Orien'
+## Longest seq. length	1383
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1377
+## Input filename	'015mdh.fas.phy'
+## Total sequences	13
+## Alignment length	924
+## Avg. sequence length	923.308
+## Longest seq. name	'Naup'
+## Longest seq. length	924
+## Shortest seq. name	'Giga'
+## Shortest seq. length	915
+## Input filename	'016gcvP.fas.phy'
+## Total sequences	13
+## Alignment length	2817
+## Avg. sequence length	2815.85
+## Longest seq. name	'Orien'
+## Longest seq. length	2817
+## Shortest seq. name	'Giga'
+## Shortest seq. length	2811
+## Input filename	'018clpP.fas.phy'
+## Total sequences	13
+## Alignment length	654
+## Avg. sequence length	653.538
+## Longest seq. name	'Fpsych'
+## Longest seq. length	654
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	651
+## Input filename	'023recA.fas.phy'
+## Total sequences	13
+## Alignment length	984
+## Avg. sequence length	984
+## Longest seq. name	'Naup'
+## Longest seq. length	984
+## Shortest seq. name	'Naup'
+## Shortest seq. length	984
+## Input filename	'026alaS.fas.phy'
+## Total sequences	13
+## Alignment length	2607
+## Avg. sequence length	2606.54
+## Longest seq. name	'Crypt'
+## Longest seq. length	2607
+## Shortest seq. name	'Madar'
+## Shortest seq. length	2601
+## Input filename	'027sucA.fas.phy'
+## Total sequences	13
+## Alignment length	2697
+## Avg. sequence length	2695.62
+## Longest seq. name	'Fbranch'
+## Longest seq. length	2697
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	2682
+## Input filename	'029sucC.fas.phy'
+## Total sequences	13
+## Alignment length	1176
+## Avg. sequence length	1174.85
+## Longest seq. name	'Orien'
+## Longest seq. length	1176
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1170
+## Input filename	'030dnaX.fas.phy'
+## Total sequences	13
+## Alignment length	1050
+## Avg. sequence length	1050
+## Longest seq. name	'Crypt'
+## Longest seq. length	1050
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1050
+## Input filename	'032trxA.fas.phy'
+## Total sequences	13
+## Alignment length	315
+## Avg. sequence length	315
+## Longest seq. name	'Crypt'
+## Longest seq. length	315
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	315
+## Input filename	'034polA.fas.phy'
+## Total sequences	13
+## Alignment length	891
+## Avg. sequence length	889.846
+## Longest seq. name	'Orien'
+## Longest seq. length	891
+## Shortest seq. name	'Germ'
+## Shortest seq. length	879
+## Input filename	'035metG.fas.phy'
+## Total sequences	13
+## Alignment length	1671
+## Avg. sequence length	1669.15
+## Longest seq. name	'Orien'
+## Longest seq. length	1671
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1662
+## Input filename	'037ligA.fas.phy'
+## Total sequences	13
+## Alignment length	1950
+## Avg. sequence length	1948.85
+## Longest seq. name	'Crypt'
+## Longest seq. length	1950
+## Shortest seq. name	'Findic'
+## Shortest seq. length	1944
+## Input filename	'038trmE.fas.phy'
+## Total sequences	13
+## Alignment length	1377
+## Avg. sequence length	1376.77
+## Longest seq. name	'Pane'
+## Longest seq. length	1377
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	1374
+## Input filename	'039gltX.fas.phy'
+## Total sequences	13
+## Alignment length	1476
+## Avg. sequence length	1476
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1476
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	1476
+## Input filename	'040rpsR.fas.phy'
+## Total sequences	13
+## Alignment length	291
+## Avg. sequence length	291
+## Longest seq. name	'Giga'
+## Longest seq. length	291
+## Shortest seq. name	'Giga'
+## Shortest seq. length	291
+## Input filename	'041rplI.fas.phy'
+## Total sequences	13
+## Alignment length	435
+## Avg. sequence length	435
+## Longest seq. name	'Fpsych'
+## Longest seq. length	435
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	435
+## Input filename	'046phospho2dehydro.fas.phy'
+## Total sequences	13
+## Alignment length	1056
+## Avg. sequence length	1055.77
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1056
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1053
+## Input filename	'050dnaG.fas.phy'
+## Total sequences	13
+## Alignment length	1800
+## Avg. sequence length	1797.23
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1800
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1785
+## Input filename	'052miaBall.fas.phy'
+## Total sequences	21
+## Alignment length	1293
+## Avg. sequence length	1289.86
+## Longest seq. name	'PaneB'
+## Longest seq. length	1293
+## Shortest seq. name	'PaneB2'
+## Shortest seq. length	1278
+## Input filename	'059rpsP.fas.phy'
+## Total sequences	13
+## Alignment length	330
+## Avg. sequence length	329.769
+## Longest seq. name	'Naup'
+## Longest seq. length	330
+## Shortest seq. name	'Madar'
+## Shortest seq. length	327
+## Input filename	'060bacA.fas.phy'
+## Total sequences	12
+## Alignment length	768
+## Avg. sequence length	758.75
+## Longest seq. name	'Fjohn'
+## Longest seq. length	768
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	666
+## Input filename	'061gyrB.fas.phy'
+## Total sequences	12
+## Alignment length	1899
+## Avg. sequence length	1898.75
+## Longest seq. name	'Madar'
+## Longest seq. length	1899
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1896
+## Input filename	'062trmD.fas.phy'
+## Total sequences	13
+## Alignment length	654
+## Avg. sequence length	651.231
+## Longest seq. name	'Naup'
+## Longest seq. length	654
+## Shortest seq. name	'Madar'
+## Shortest seq. length	618
+## Input filename	'064ruvA.fas.phy'
+## Total sequences	13
+## Alignment length	579
+## Avg. sequence length	578.538
+## Longest seq. name	'Fbranch'
+## Longest seq. length	579
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	576
+## Input filename	'069pheS.fas.phy'
+## Total sequences	12
+## Alignment length	972
+## Avg. sequence length	971.5
+## Longest seq. name	'Crypt'
+## Longest seq. length	972
+## Shortest seq. name	'Germ'
+## Shortest seq. length	966
+## Input filename	'075acpT.fas.phy'
+## Total sequences	13
+## Alignment length	600
+## Avg. sequence length	598.154
+## Longest seq. name	'Fcolum'
+## Longest seq. length	600
+## Shortest seq. name	'Madar'
+## Shortest seq. length	576
+## Input filename	'076pnuC.fas.phy'
+## Total sequences	13
+## Alignment length	600
+## Avg. sequence length	599.077
+## Longest seq. name	'Fjohn'
+## Longest seq. length	600
+## Shortest seq. name	'Madar'
+## Shortest seq. length	591
+## Input filename	'077hisS.fas.phy'
+## Total sequences	13
+## Alignment length	1353
+## Avg. sequence length	1352.77
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1353
+## Shortest seq. name	'Pane'
+## Shortest seq. length	1350
+## Input filename	'078ftsZ.fas.phy'
+## Total sequences	13
+## Alignment length	1338
+## Avg. sequence length	1333.15
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1338
+## Shortest seq. name	'Findic'
+## Shortest seq. length	1323
+## Input filename	'079ftsA.fas.phy'
+## Total sequences	13
+## Alignment length	1338
+## Avg. sequence length	1333.38
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1338
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1299
+## Input filename	'081murC.fas.phy'
+## Total sequences	13
+## Alignment length	1338
+## Avg. sequence length	1337.08
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1338
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	1332
+## Input filename	'083ftsW.fas.phy'
+## Total sequences	13
+## Alignment length	1161
+## Avg. sequence length	1159.85
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1161
+## Shortest seq. name	'Findic'
+## Shortest seq. length	1155
+## Input filename	'085mraY.fas.phy'
+## Total sequences	13
+## Alignment length	1149
+## Avg. sequence length	1140
+## Longest seq. name	'Naup'
+## Longest seq. length	1149
+## Shortest seq. name	'Germ'
+## Shortest seq. length	1062
+## Input filename	'086murE.fas.phy'
+## Total sequences	13
+## Alignment length	1455
+## Avg. sequence length	1454.31
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1455
+## Shortest seq. name	'Fbranch'
+## Shortest seq. length	1446
+## Input filename	'093dapF.fas.phy'
+## Total sequences	13
+## Alignment length	765
+## Avg. sequence length	759.692
+## Longest seq. name	'Fbranch'
+## Longest seq. length	765
+## Shortest seq. name	'Orien'
+## Shortest seq. length	726
+## Input filename	'096tatC.fas.phy'
+## Total sequences	13
+## Alignment length	789
+## Avg. sequence length	787.154
+## Longest seq. name	'Fpsych'
+## Longest seq. length	789
+## Shortest seq. name	'Madar'
+## Shortest seq. length	771
+## Input filename	'098smpB.fas.phy'
+## Total sequences	13
+## Alignment length	429
+## Avg. sequence length	428.538
+## Longest seq. name	'Orien'
+## Longest seq. length	429
+## Shortest seq. name	'Madar'
+## Shortest seq. length	423
+## Input filename	'099tktB.fas.phy'
+## Total sequences	13
+## Alignment length	840
+## Avg. sequence length	840
+## Longest seq. name	'Fcolum'
+## Longest seq. length	840
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	840
+## Input filename	'100dxs.fas.phy'
+## Total sequences	13
+## Alignment length	927
+## Avg. sequence length	925.846
+## Longest seq. name	'Fpsych'
+## Longest seq. length	927
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	912
+## Input filename	'102aroA.fas.phy'
+## Total sequences	13
+## Alignment length	1212
+## Avg. sequence length	1205.31
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1212
+## Shortest seq. name	'Germ'
+## Shortest seq. length	1131
+## Input filename	'103rpsT.fas.phy'
+## Total sequences	13
+## Alignment length	231
+## Avg. sequence length	231
+## Longest seq. name	'Orien'
+## Longest seq. length	231
+## Shortest seq. name	'Orien'
+## Shortest seq. length	231
+## Input filename	'104murI.fas.phy'
+## Total sequences	13
+## Alignment length	765
+## Avg. sequence length	764.308
+## Longest seq. name	'Fjohn'
+## Longest seq. length	765
+## Shortest seq. name	'Germ'
+## Shortest seq. length	759
+## Input filename	'109ccoN.fas.phy'
+## Total sequences	13
+## Alignment length	2016
+## Avg. sequence length	2002.62
+## Longest seq. name	'Findic'
+## Longest seq. length	2016
+## Shortest seq. name	'Orien'
+## Shortest seq. length	1848
+## Input filename	'112gcvH.fas.phy'
+## Total sequences	13
+## Alignment length	375
+## Avg. sequence length	375
+## Longest seq. name	'Madar'
+## Longest seq. length	375
+## Shortest seq. name	'Madar'
+## Shortest seq. length	375
+## Input filename	'115serC.fas.phy'
+## Total sequences	13
+## Alignment length	1059
+## Avg. sequence length	1059
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1059
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	1059
+## Input filename	'117aroK.fas.phy'
+## Total sequences	13
+## Alignment length	510
+## Avg. sequence length	509.769
+## Longest seq. name	'Fcolum'
+## Longest seq. length	510
+## Shortest seq. name	'Naup'
+## Shortest seq. length	507
+## Input filename	'118xthA.fas.phy'
+## Total sequences	13
+## Alignment length	756
+## Avg. sequence length	755.769
+## Longest seq. name	'Crypt'
+## Longest seq. length	756
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	753
+## Input filename	'128folD.fas.phy'
+## Total sequences	13
+## Alignment length	852
+## Avg. sequence length	852
+## Longest seq. name	'Fcolum'
+## Longest seq. length	852
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	852
+## Input filename	'129rsmA.fas.phy'
+## Total sequences	13
+## Alignment length	765
+## Avg. sequence length	751.615
+## Longest seq. name	'Fpsych'
+## Longest seq. length	765
+## Shortest seq. name	'Naup'
+## Shortest seq. length	594
+## Input filename	'130serS.fas.phy'
+## Total sequences	13
+## Alignment length	1263
+## Avg. sequence length	1261.85
+## Longest seq. name	'Pane'
+## Longest seq. length	1263
+## Shortest seq. name	'Giga'
+## Shortest seq. length	1257
+## Input filename	'132pdhB.fas.phy'
+## Total sequences	13
+## Alignment length	975
+## Avg. sequence length	975
+## Longest seq. name	'Pane'
+## Longest seq. length	975
+## Shortest seq. name	'Pane'
+## Shortest seq. length	975
+## Input filename	'134folA.fas.phy'
+## Total sequences	13
+## Alignment length	477
+## Avg. sequence length	476.308
+## Longest seq. name	'Fpsych'
+## Longest seq. length	477
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	474
+## Input filename	'135valS.fas.phy'
+## Total sequences	13
+## Alignment length	2604
+## Avg. sequence length	2602.62
+## Longest seq. name	'Crypt'
+## Longest seq. length	2604
+## Shortest seq. name	'Madar'
+## Shortest seq. length	2595
+## Input filename	'138ndk.fas.phy'
+## Total sequences	13
+## Alignment length	417
+## Avg. sequence length	417
+## Longest seq. name	'Giga'
+## Longest seq. length	417
+## Shortest seq. name	'Giga'
+## Shortest seq. length	417
+## Input filename	'139sucA.fas.phy'
+## Total sequences	13
+## Alignment length	2697
+## Avg. sequence length	2695.62
+## Longest seq. name	'Fbranch'
+## Longest seq. length	2697
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	2682
+## Input filename	'140ilvE.fas.phy'
+## Total sequences	13
+## Alignment length	888
+## Avg. sequence length	885.462
+## Longest seq. name	'Fbranch'
+## Longest seq. length	888
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	867
+## Input filename	'141argS.fas.phy'
+## Total sequences	13
+## Alignment length	1725
+## Avg. sequence length	1723.15
+## Longest seq. name	'Crypt'
+## Longest seq. length	1725
+## Shortest seq. name	'Pane'
+## Shortest seq. length	1716
+## Input filename	'142ffh.fas.phy'
+## Total sequences	13
+## Alignment length	1329
+## Avg. sequence length	1311.46
+## Longest seq. name	'Pane'
+## Longest seq. length	1329
+## Shortest seq. name	'Orien'
+## Shortest seq. length	1110
+## Input filename	'146thrS.fas.phy'
+## Total sequences	13
+## Alignment length	1200
+## Avg. sequence length	1200
+## Longest seq. name	'Naup'
+## Longest seq. length	1200
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1200
+## Input filename	'147infC.fas.phy'
+## Total sequences	13
+## Alignment length	378
+## Avg. sequence length	377.769
+## Longest seq. name	'Fcolum'
+## Longest seq. length	378
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	375
+## Input filename	'148rpmI.fas.phy'
+## Total sequences	13
+## Alignment length	186
+## Avg. sequence length	186
+## Longest seq. name	'Giga'
+## Longest seq. length	186
+## Shortest seq. name	'Giga'
+## Shortest seq. length	186
+## Input filename	'149rplT.fas.phy'
+## Total sequences	13
+## Alignment length	342
+## Avg. sequence length	342
+## Longest seq. name	'Giga'
+## Longest seq. length	342
+## Shortest seq. name	'Giga'
+## Shortest seq. length	342
+## Input filename	'150HolidayJunct.fas.phy'
+## Total sequences	13
+## Alignment length	402
+## Avg. sequence length	397.385
+## Longest seq. name	'Fpsych'
+## Longest seq. length	402
+## Shortest seq. name	'Naup'
+## Shortest seq. length	348
+## Input filename	'151dapD.fas.phy'
+## Total sequences	13
+## Alignment length	813
+## Avg. sequence length	813
+## Longest seq. name	'Crypt'
+## Longest seq. length	813
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	813
+## Input filename	'153cca.fas.phy'
+## Total sequences	13
+## Alignment length	1413
+## Avg. sequence length	1373.54
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1413
+## Shortest seq. name	'Naup'
+## Shortest seq. length	903
+## Input filename	'160fbaA.fas.phy'
+## Total sequences	13
+## Alignment length	1065
+## Avg. sequence length	1065
+## Longest seq. name	'Madar'
+## Longest seq. length	1065
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1065
+## Input filename	'161accD.fas.phy'
+## Total sequences	13
+## Alignment length	837
+## Avg. sequence length	837
+## Longest seq. name	'Fpsych'
+## Longest seq. length	837
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	837
+## Input filename	'162guaA.fas.phy'
+## Total sequences	13
+## Alignment length	1518
+## Avg. sequence length	1516.62
+## Longest seq. name	'Crypt'
+## Longest seq. length	1518
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1506
+## Input filename	'163purD.fas.phy'
+## Total sequences	13
+## Alignment length	1233
+## Avg. sequence length	1233
+## Longest seq. name	'Crypt'
+## Longest seq. length	1233
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1233
+## Input filename	'165purN.fas.phy'
+## Total sequences	13
+## Alignment length	549
+## Avg. sequence length	549
+## Longest seq. name	'Fpsych'
+## Longest seq. length	549
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	549
+## Input filename	'166purM.fas.phy'
+## Total sequences	13
+## Alignment length	954
+## Avg. sequence length	954
+## Longest seq. name	'Germ'
+## Longest seq. length	954
+## Shortest seq. name	'Germ'
+## Shortest seq. length	954
+## Input filename	'167purF.fas.phy'
+## Total sequences	13
+## Alignment length	1359
+## Avg. sequence length	1358.08
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1359
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1350
+## Input filename	'168purC.fas.phy'
+## Total sequences	13
+## Alignment length	708
+## Avg. sequence length	707.769
+## Longest seq. name	'Giga'
+## Longest seq. length	708
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	705
+## Input filename	'170purL.fas.phy'
+## Total sequences	13
+## Alignment length	3360
+## Avg. sequence length	3356.54
+## Longest seq. name	'Giga'
+## Longest seq. length	3360
+## Shortest seq. name	'Madar'
+## Shortest seq. length	3348
+## Input filename	'171purB.fas.phy'
+## Total sequences	13
+## Alignment length	1266
+## Avg. sequence length	1266
+## Longest seq. name	'Fjohn'
+## Longest seq. length	1266
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1266
+## Input filename	'172purA.fas.phy'
+## Total sequences	13
+## Alignment length	1251
+## Avg. sequence length	1251
+## Longest seq. name	'Naup'
+## Longest seq. length	1251
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1251
+## Input filename	'173ruvB.fas.phy'
+## Total sequences	13
+## Alignment length	963
+## Avg. sequence length	962.538
+## Longest seq. name	'Fcolum'
+## Longest seq. length	963
+## Shortest seq. name	'Pane'
+## Shortest seq. length	960
+## Input filename	'176gyrA.fas.phy'
+## Total sequences	13
+## Alignment length	2430
+## Avg. sequence length	2428.38
+## Longest seq. name	'Orien'
+## Longest seq. length	2430
+## Shortest seq. name	'Giga'
+## Shortest seq. length	2409
+## Input filename	'177aroB.fas.phy'
+## Total sequences	13
+## Alignment length	978
+## Avg. sequence length	975.462
+## Longest seq. name	'Fcolum'
+## Longest seq. length	978
+## Shortest seq. name	'Madar'
+## Shortest seq. length	960
+## Input filename	'180rplY.fas.phy'
+## Total sequences	13
+## Alignment length	588
+## Avg. sequence length	587.077
+## Longest seq. name	'Germ'
+## Longest seq. length	588
+## Shortest seq. name	'Madar'
+## Shortest seq. length	579
+## Input filename	'181prsA.fas.phy'
+## Total sequences	13
+## Alignment length	930
+## Avg. sequence length	930
+## Longest seq. name	'Findic'
+## Longest seq. length	930
+## Shortest seq. name	'Findic'
+## Shortest seq. length	930
+## Input filename	'182thyA.fas.phy'
+## Total sequences	13
+## Alignment length	783
+## Avg. sequence length	783
+## Longest seq. name	'Fcolum'
+## Longest seq. length	783
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	783
+## Input filename	'188rnhA.fas.phy'
+## Total sequences	13
+## Alignment length	465
+## Avg. sequence length	451.615
+## Longest seq. name	'Germ'
+## Longest seq. length	465
+## Shortest seq. name	'Amer'
+## Shortest seq. length	297
+## Input filename	'190fbp.fas.phy'
+## Total sequences	13
+## Alignment length	984
+## Avg. sequence length	982.385
+## Longest seq. name	'Germ'
+## Longest seq. length	984
+## Shortest seq. name	'Madar'
+## Shortest seq. length	975
+## Input filename	'191marC.fas.phy'
+## Total sequences	13
+## Alignment length	537
+## Avg. sequence length	537
+## Longest seq. name	'Fpsych'
+## Longest seq. length	537
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	537
+## Input filename	'193pyrD.fas.phy'
+## Total sequences	13
+## Alignment length	849
+## Avg. sequence length	847.385
+## Longest seq. name	'Naup'
+## Longest seq. length	849
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	840
+## Input filename	'196accB.fas.phy'
+## Total sequences	13
+## Alignment length	459
+## Avg. sequence length	457.846
+## Longest seq. name	'Orien'
+## Longest seq. length	459
+## Shortest seq. name	'Germ'
+## Shortest seq. length	453
+## Input filename	'197accC.fas.phy'
+## Total sequences	13
+## Alignment length	1338
+## Avg. sequence length	1337.77
+## Longest seq. name	'Naup'
+## Longest seq. length	1338
+## Shortest seq. name	'Giga'
+## Shortest seq. length	1335
+## Input filename	'198prfA.fas.phy'
+## Total sequences	13
+## Alignment length	1044
+## Avg. sequence length	1043.54
+## Longest seq. name	'Orien'
+## Longest seq. length	1044
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1038
+## Input filename	'200rho.fas.phy'
+## Total sequences	13
+## Alignment length	1524
+## Avg. sequence length	1518.46
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1524
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1470
+## Input filename	'203rpmB.fas.phy'
+## Total sequences	13
+## Alignment length	225
+## Avg. sequence length	224.769
+## Longest seq. name	'Fpsych'
+## Longest seq. length	225
+## Shortest seq. name	'Orien'
+## Shortest seq. length	222
+## Input filename	'204rpmG.fas.phy'
+## Total sequences	13
+## Alignment length	180
+## Avg. sequence length	180
+## Longest seq. name	'Giga'
+## Longest seq. length	180
+## Shortest seq. name	'Giga'
+## Shortest seq. length	180
+## Input filename	'207htpG.fas.phy'
+## Total sequences	13
+## Alignment length	1812
+## Avg. sequence length	1809.92
+## Longest seq. name	'Amer'
+## Longest seq. length	1812
+## Shortest seq. name	'Orien'
+## Shortest seq. length	1803
+## Input filename	'208exoX.fas.phy'
+## Total sequences	13
+## Alignment length	765
+## Avg. sequence length	750.231
+## Longest seq. name	'Findic'
+## Longest seq. length	765
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	573
+## Input filename	'214tatD.fas.phy'
+## Total sequences	13
+## Alignment length	759
+## Avg. sequence length	758.308
+## Longest seq. name	'Fpsych'
+## Longest seq. length	759
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	756
+## Input filename	'215fabD.fas.phy'
+## Total sequences	13
+## Alignment length	855
+## Avg. sequence length	854.769
+## Longest seq. name	'Crypt'
+## Longest seq. length	855
+## Shortest seq. name	'Madar'
+## Shortest seq. length	852
+## Input filename	'219bindingHU.fas.phy'
+## Total sequences	13
+## Alignment length	282
+## Avg. sequence length	280.615
+## Longest seq. name	'Amer'
+## Longest seq. length	282
+## Shortest seq. name	'Naup'
+## Shortest seq. length	264
+## Input filename	'220mutY.fas.phy'
+## Total sequences	13
+## Alignment length	1011
+## Avg. sequence length	1007.54
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1011
+## Shortest seq. name	'Naup'
+## Shortest seq. length	975
+## Input filename	'224mutL.fas.phy'
+## Total sequences	13
+## Alignment length	1698
+## Avg. sequence length	1693.62
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1698
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1680
+## Input filename	'226signalpep1.fas.phy'
+## Total sequences	13
+## Alignment length	1422
+## Avg. sequence length	1413.23
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1422
+## Shortest seq. name	'Germ'
+## Shortest seq. length	1350
+## Input filename	'227dapB.fas.phy'
+## Total sequences	13
+## Alignment length	696
+## Avg. sequence length	696
+## Longest seq. name	'Fbranch'
+## Longest seq. length	696
+## Shortest seq. name	'Fbranch'
+## Shortest seq. length	696
+## Input filename	'229dnaJ.fas.phy'
+## Total sequences	13
+## Alignment length	1095
+## Avg. sequence length	1094.77
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1095
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1092
+## Input filename	'230grpE.fas.phy'
+## Total sequences	13
+## Alignment length	537
+## Avg. sequence length	535.385
+## Longest seq. name	'Fpsych'
+## Longest seq. length	537
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	528
+## Input filename	'231trpS.fas.phy'
+## Total sequences	13
+## Alignment length	963
+## Avg. sequence length	963
+## Longest seq. name	'Crypt'
+## Longest seq. length	963
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	963
+## Input filename	'232atpG.fas.phy'
+## Total sequences	13
+## Alignment length	840
+## Avg. sequence length	836.077
+## Longest seq. name	'Orien'
+## Longest seq. length	840
+## Shortest seq. name	'Madar'
+## Shortest seq. length	810
+## Input filename	'233atpA.fas.phy'
+## Total sequences	13
+## Alignment length	1575
+## Avg. sequence length	1574.77
+## Longest seq. name	'Crypt'
+## Longest seq. length	1575
+## Shortest seq. name	'Findic'
+## Shortest seq. length	1572
+## Input filename	'234atpH.fas.phy'
+## Total sequences	13
+## Alignment length	525
+## Avg. sequence length	523.385
+## Longest seq. name	'Fjohn'
+## Longest seq. length	525
+## Shortest seq. name	'Findic'
+## Shortest seq. length	519
+## Input filename	'235atpF.fas.phy'
+## Total sequences	13
+## Alignment length	483
+## Avg. sequence length	482.538
+## Longest seq. name	'Fjohn'
+## Longest seq. length	483
+## Shortest seq. name	'Orien'
+## Shortest seq. length	480
+## Input filename	'237atpB.fas.phy'
+## Total sequences	13
+## Alignment length	969
+## Avg. sequence length	951.231
+## Longest seq. name	'Fbranch'
+## Longest seq. length	969
+## Shortest seq. name	'Naup'
+## Shortest seq. length	765
+## Input filename	'238cysS.fas.phy'
+## Total sequences	13
+## Alignment length	1413
+## Avg. sequence length	1412.08
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1413
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1401
+## Input filename	'239folE.fas.phy'
+## Total sequences	13
+## Alignment length	639
+## Avg. sequence length	629.769
+## Longest seq. name	'Giga'
+## Longest seq. length	639
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	519
+## Input filename	'240nadE.fas.phy'
+## Total sequences	13
+## Alignment length	771
+## Avg. sequence length	763.385
+## Longest seq. name	'Fpsych'
+## Longest seq. length	771
+## Shortest seq. name	'Orien'
+## Shortest seq. length	699
+## Input filename	'245hemD.fas.phy'
+## Total sequences	13
+## Alignment length	627
+## Avg. sequence length	620.308
+## Longest seq. name	'Fpsych'
+## Longest seq. length	627
+## Shortest seq. name	'Madar'
+## Shortest seq. length	585
+## Input filename	'252carB.fas.phy'
+## Total sequences	13
+## Alignment length	2784
+## Avg. sequence length	2782.38
+## Longest seq. name	'Orien'
+## Longest seq. length	2784
+## Shortest seq. name	'Madar'
+## Shortest seq. length	2769
+## Input filename	'253carA.fas.phy'
+## Total sequences	13
+## Alignment length	1050
+## Avg. sequence length	1048.15
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1050
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1032
+## Input filename	'254argD.fas.phy'
+## Total sequences	13
+## Alignment length	1089
+## Avg. sequence length	1089
+## Longest seq. name	'Fjohn'
+## Longest seq. length	1089
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1089
+## Input filename	'257polC.fas.phy'
+## Total sequences	13
+## Alignment length	4212
+## Avg. sequence length	4209.92
+## Longest seq. name	'Fcolum'
+## Longest seq. length	4212
+## Shortest seq. name	'Naup'
+## Shortest seq. length	4200
+## Input filename	'258rpsA.fas.phy'
+## Total sequences	13
+## Alignment length	1725
+## Avg. sequence length	1712.54
+## Longest seq. name	'Giga'
+## Longest seq. length	1725
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1563
+## Input filename	'264asd.fas.phy'
+## Total sequences	13
+## Alignment length	987
+## Avg. sequence length	987
+## Longest seq. name	'Orien'
+## Longest seq. length	987
+## Shortest seq. name	'Orien'
+## Shortest seq. length	987
+## Input filename	'265gmk.fas.phy'
+## Total sequences	13
+## Alignment length	564
+## Avg. sequence length	559.846
+## Longest seq. name	'Orien'
+## Longest seq. length	564
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	534
+## Input filename	'266rpiB.fas.phy'
+## Total sequences	13
+## Alignment length	426
+## Avg. sequence length	425.769
+## Longest seq. name	'Fcolum'
+## Longest seq. length	426
+## Shortest seq. name	'Pane'
+## Shortest seq. length	423
+## Input filename	'267pgk.fas.phy'
+## Total sequences	13
+## Alignment length	1179
+## Avg. sequence length	1178.08
+## Longest seq. name	'Pane'
+## Longest seq. length	1179
+## Shortest seq. name	'Giga'
+## Shortest seq. length	1173
+## Input filename	'268sodA.fas.phy'
+## Total sequences	13
+## Alignment length	603
+## Avg. sequence length	603
+## Longest seq. name	'Orien'
+## Longest seq. length	603
+## Shortest seq. name	'Orien'
+## Shortest seq. length	603
+## Input filename	'269folB.fas.phy'
+## Total sequences	13
+## Alignment length	348
+## Avg. sequence length	347.769
+## Longest seq. name	'Fcolum'
+## Longest seq. length	348
+## Shortest seq. name	'Madar'
+## Shortest seq. length	345
+## Input filename	'270glmS.fas.phy'
+## Total sequences	13
+## Alignment length	1842
+## Avg. sequence length	1841.54
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1842
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	1836
+## Input filename	'272rnr.fas.phy'
+## Total sequences	13
+## Alignment length	1842
+## Avg. sequence length	1826.31
+## Longest seq. name	'Crypt'
+## Longest seq. length	1842
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1638
+## Input filename	'273coaD.fas.phy'
+## Total sequences	13
+## Alignment length	450
+## Avg. sequence length	450
+## Longest seq. name	'Naup'
+## Longest seq. length	450
+## Shortest seq. name	'Naup'
+## Shortest seq. length	450
+## Input filename	'276serA.fas.phy'
+## Total sequences	13
+## Alignment length	876
+## Avg. sequence length	876
+## Longest seq. name	'Fbranch'
+## Longest seq. length	876
+## Shortest seq. name	'Fbranch'
+## Shortest seq. length	876
+## Input filename	'289menA.fas.phy'
+## Total sequences	13
+## Alignment length	882
+## Avg. sequence length	881.077
+## Longest seq. name	'Fpsych'
+## Longest seq. length	882
+## Shortest seq. name	'Findic'
+## Shortest seq. length	876
+## Input filename	'290menB.fas.phy'
+## Total sequences	13
+## Alignment length	813
+## Avg. sequence length	812.308
+## Longest seq. name	'Orien'
+## Longest seq. length	813
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	804
+## Input filename	'293eno.fas.phy'
+## Total sequences	13
+## Alignment length	1275
+## Avg. sequence length	1274.77
+## Longest seq. name	'Crypt'
+## Longest seq. length	1275
+## Shortest seq. name	'Pane'
+## Shortest seq. length	1272
+## Input filename	'294rplQ.fas.phy'
+## Total sequences	13
+## Alignment length	432
+## Avg. sequence length	431.077
+## Longest seq. name	'Orien'
+## Longest seq. length	432
+## Shortest seq. name	'Madar'
+## Shortest seq. length	420
+## Input filename	'295rpoA.fas.phy'
+## Total sequences	13
+## Alignment length	990
+## Avg. sequence length	989.308
+## Longest seq. name	'Orien'
+## Longest seq. length	990
+## Shortest seq. name	'Madar'
+## Shortest seq. length	981
+## Input filename	'296rpsD.fas.phy'
+## Total sequences	13
+## Alignment length	603
+## Avg. sequence length	603
+## Longest seq. name	'Giga'
+## Longest seq. length	603
+## Shortest seq. name	'Giga'
+## Shortest seq. length	603
+## Input filename	'297rpsK.fas.phy'
+## Total sequences	13
+## Alignment length	381
+## Avg. sequence length	378.231
+## Longest seq. name	'Amer'
+## Longest seq. length	381
+## Shortest seq. name	'Naup'
+## Shortest seq. length	345
+## Input filename	'298rpsM.fas.phy'
+## Total sequences	13
+## Alignment length	372
+## Avg. sequence length	372
+## Longest seq. name	'Orien'
+## Longest seq. length	372
+## Shortest seq. name	'Orien'
+## Shortest seq. length	372
+## Input filename	'300infA.fas.phy'
+## Total sequences	13
+## Alignment length	213
+## Avg. sequence length	213
+## Longest seq. name	'Giga'
+## Longest seq. length	213
+## Shortest seq. name	'Giga'
+## Shortest seq. length	213
+## Input filename	'301rplO.fas.phy'
+## Total sequences	13
+## Alignment length	447
+## Avg. sequence length	442.615
+## Longest seq. name	'Crypt'
+## Longest seq. length	447
+## Shortest seq. name	'Naup'
+## Shortest seq. length	393
+## Input filename	'302rpsE.fas.phy'
+## Total sequences	13
+## Alignment length	504
+## Avg. sequence length	501.692
+## Longest seq. name	'Giga'
+## Longest seq. length	504
+## Shortest seq. name	'Madar'
+## Shortest seq. length	477
+## Input filename	'304rplF.fas.phy'
+## Total sequences	13
+## Alignment length	540
+## Avg. sequence length	540
+## Longest seq. name	'Pane'
+## Longest seq. length	540
+## Shortest seq. name	'Pane'
+## Shortest seq. length	540
+## Input filename	'305rpsH.fas.phy'
+## Total sequences	13
+## Alignment length	378
+## Avg. sequence length	377.538
+## Longest seq. name	'Giga'
+## Longest seq. length	378
+## Shortest seq. name	'Madar'
+## Shortest seq. length	372
+## Input filename	'306rpsN.fas.phy'
+## Total sequences	13
+## Alignment length	267
+## Avg. sequence length	267
+## Longest seq. name	'Germ'
+## Longest seq. length	267
+## Shortest seq. name	'Germ'
+## Shortest seq. length	267
+## Input filename	'307rplE.fas.phy'
+## Total sequences	13
+## Alignment length	549
+## Avg. sequence length	548.538
+## Longest seq. name	'Giga'
+## Longest seq. length	549
+## Shortest seq. name	'Madar'
+## Shortest seq. length	543
+## Input filename	'308rplX.fas.phy'
+## Total sequences	13
+## Alignment length	213
+## Avg. sequence length	213
+## Longest seq. name	'Orien'
+## Longest seq. length	213
+## Shortest seq. name	'Orien'
+## Shortest seq. length	213
+## Input filename	'310rpsQ.fas.phy'
+## Total sequences	13
+## Alignment length	252
+## Avg. sequence length	251.769
+## Longest seq. name	'Giga'
+## Longest seq. length	252
+## Shortest seq. name	'Madar'
+## Shortest seq. length	249
+## Input filename	'312rplP.fas.phy'
+## Total sequences	13
+## Alignment length	417
+## Avg. sequence length	402.462
+## Longest seq. name	'Amer'
+## Longest seq. length	417
+## Shortest seq. name	'Naup'
+## Shortest seq. length	246
+## Input filename	'313rpsC.fas.phy'
+## Total sequences	13
+## Alignment length	702
+## Avg. sequence length	700.615
+## Longest seq. name	'Giga'
+## Longest seq. length	702
+## Shortest seq. name	'Germ'
+## Shortest seq. length	693
+## Input filename	'314rplV.fas.phy'
+## Total sequences	13
+## Alignment length	342
+## Avg. sequence length	341.769
+## Longest seq. name	'Orien'
+## Longest seq. length	342
+## Shortest seq. name	'Madar'
+## Shortest seq. length	339
+## Input filename	'315rpsS.fas.phy'
+## Total sequences	13
+## Alignment length	276
+## Avg. sequence length	276
+## Longest seq. name	'Orien'
+## Longest seq. length	276
+## Shortest seq. name	'Orien'
+## Shortest seq. length	276
+## Input filename	'316rplB.fas.phy'
+## Total sequences	13
+## Alignment length	822
+## Avg. sequence length	822
+## Longest seq. name	'Orien'
+## Longest seq. length	822
+## Shortest seq. name	'Orien'
+## Shortest seq. length	822
+## Input filename	'317rplW.fas.phy'
+## Total sequences	13
+## Alignment length	279
+## Avg. sequence length	279
+## Longest seq. name	'Orien'
+## Longest seq. length	279
+## Shortest seq. name	'Orien'
+## Shortest seq. length	279
+## Input filename	'318rplD.fas.phy'
+## Total sequences	13
+## Alignment length	627
+## Avg. sequence length	627
+## Longest seq. name	'Giga'
+## Longest seq. length	627
+## Shortest seq. name	'Giga'
+## Shortest seq. length	627
+## Input filename	'319rplC.fas.phy'
+## Total sequences	13
+## Alignment length	615
+## Avg. sequence length	615
+## Longest seq. name	'Crypt'
+## Longest seq. length	615
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	615
+## Input filename	'320rpsJ.fas.phy'
+## Total sequences	13
+## Alignment length	303
+## Avg. sequence length	303
+## Longest seq. name	'Fcolum'
+## Longest seq. length	303
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	303
+## Input filename	'321fusA.fas.phy'
+## Total sequences	13
+## Alignment length	2094
+## Avg. sequence length	2094
+## Longest seq. name	'Orien'
+## Longest seq. length	2094
+## Shortest seq. name	'Orien'
+## Shortest seq. length	2094
+## Input filename	'322rpsG.fas.phy'
+## Total sequences	13
+## Alignment length	474
+## Avg. sequence length	468.231
+## Longest seq. name	'Crypt'
+## Longest seq. length	474
+## Shortest seq. name	'Naup'
+## Shortest seq. length	399
+## Input filename	'323rpsL.fas.phy'
+## Total sequences	13
+## Alignment length	375
+## Avg. sequence length	375
+## Longest seq. name	'Fcolum'
+## Longest seq. length	375
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	375
+## Input filename	'324map.fas.phy'
+## Total sequences	13
+## Alignment length	807
+## Avg. sequence length	807
+## Longest seq. name	'Orien'
+## Longest seq. length	807
+## Shortest seq. name	'Orien'
+## Shortest seq. length	807
+## Input filename	'325pgm.fas.phy'
+## Total sequences	13
+## Alignment length	1506
+## Avg. sequence length	1505.77
+## Longest seq. name	'Crypt'
+## Longest seq. length	1506
+## Shortest seq. name	'Germ'
+## Shortest seq. length	1503
+## Input filename	'326tsf.fas.phy'
+## Total sequences	13
+## Alignment length	807
+## Avg. sequence length	806.077
+## Longest seq. name	'Crypt'
+## Longest seq. length	807
+## Shortest seq. name	'Madar'
+## Shortest seq. length	801
+## Input filename	'327rpsB.fas.phy'
+## Total sequences	13
+## Alignment length	717
+## Avg. sequence length	715.154
+## Longest seq. name	'Crypt'
+## Longest seq. length	717
+## Shortest seq. name	'Madar'
+## Shortest seq. length	696
+## Input filename	'328rpsI.fas.phy'
+## Total sequences	13
+## Alignment length	372
+## Avg. sequence length	372
+## Longest seq. name	'Madar'
+## Longest seq. length	372
+## Shortest seq. name	'Madar'
+## Shortest seq. length	372
+## Input filename	'329rplM.fas.phy'
+## Total sequences	13
+## Alignment length	438
+## Avg. sequence length	436.385
+## Longest seq. name	'Orien'
+## Longest seq. length	438
+## Shortest seq. name	'Madar'
+## Shortest seq. length	426
+## Input filename	'330dnaK.fas.phy'
+## Total sequences	13
+## Alignment length	1878
+## Avg. sequence length	1876.85
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1878
+## Shortest seq. name	'Naup'
+## Shortest seq. length	1866
+## Input filename	'331psd.fas.phy'
+## Total sequences	13
+## Alignment length	645
+## Avg. sequence length	641.077
+## Longest seq. name	'Madar'
+## Longest seq. length	645
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	594
+## Input filename	'332cdsA.fas.phy'
+## Total sequences	13
+## Alignment length	765
+## Avg. sequence length	743.538
+## Longest seq. name	'Fjohn'
+## Longest seq. length	765
+## Shortest seq. name	'Naup'
+## Shortest seq. length	516
+## Input filename	'333ftsH.fas.phy'
+## Total sequences	13
+## Alignment length	1893
+## Avg. sequence length	1890.69
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1893
+## Shortest seq. name	'Giga'
+## Shortest seq. length	1881
+## Input filename	'336pyrG.fas.phy'
+## Total sequences	13
+## Alignment length	1608
+## Avg. sequence length	1607.08
+## Longest seq. name	'Crypt'
+## Longest seq. length	1608
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1602
+## Input filename	'338adk.fas.phy'
+## Total sequences	13
+## Alignment length	570
+## Avg. sequence length	567.923
+## Longest seq. name	'Crypt'
+## Longest seq. length	570
+## Shortest seq. name	'Germ'
+## Shortest seq. length	543
+## Input filename	'339lpd.fas.phy'
+## Total sequences	13
+## Alignment length	1383
+## Avg. sequence length	1381.62
+## Longest seq. name	'Fcolum'
+## Longest seq. length	1383
+## Shortest seq. name	'Madar'
+## Shortest seq. length	1371
+## Input filename	'343dapA.fas.phy'
+## Total sequences	13
+## Alignment length	870
+## Avg. sequence length	869.769
+## Longest seq. name	'Fpsych'
+## Longest seq. length	870
+## Shortest seq. name	'Naup'
+## Shortest seq. length	867
+## Input filename	'346miaB.fas.phy'
+## Total sequences	13
+## Alignment length	1305
+## Avg. sequence length	1296.69
+## Longest seq. name	'Pane'
+## Longest seq. length	1305
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1215
+## Input filename	'347ntrC.fas.phy'
+## Total sequences	13
+## Alignment length	528
+## Avg. sequence length	510.462
+## Longest seq. name	'Giga'
+## Longest seq. length	528
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	333
+## Input filename	'349groES.fas.phy'
+## Total sequences	13
+## Alignment length	273
+## Avg. sequence length	273
+## Longest seq. name	'Fjohn'
+## Longest seq. length	273
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	273
+## Input filename	'350groL.fas.phy'
+## Total sequences	13
+## Alignment length	1626
+## Avg. sequence length	1625.54
+## Longest seq. name	'Fjohn'
+## Longest seq. length	1626
+## Shortest seq. name	'Fpsych'
+## Shortest seq. length	1623
+## Input filename	'355yajC.fas.phy'
+## Total sequences	13
+## Alignment length	267
+## Avg. sequence length	266.308
+## Longest seq. name	'Fjohn'
+## Longest seq. length	267
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	261
+## Input filename	'356coaE.fas.phy'
+## Total sequences	13
+## Alignment length	573
+## Avg. sequence length	570
+## Longest seq. name	'Fcolum'
+## Longest seq. length	573
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	534
+## Input filename	'359entC.fas.phy'
+## Total sequences	13
+## Alignment length	993
+## Avg. sequence length	986.769
+## Longest seq. name	'Fjohn'
+## Longest seq. length	993
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	951
+## Input filename	'361idi.fas.phy'
+## Total sequences	13
+## Alignment length	513
+## Avg. sequence length	513
+## Longest seq. name	'Orien'
+## Longest seq. length	513
+## Shortest seq. name	'Orien'
+## Shortest seq. length	513
+## Input filename	'362sscR.fas.phy'
+## Total sequences	13
+## Alignment length	408
+## Avg. sequence length	407.308
+## Longest seq. name	'Findic'
+## Longest seq. length	408
+## Shortest seq. name	'Germ'
+## Shortest seq. length	402
+## Input filename	'366aroC.fas.phy'
+## Total sequences	13
+## Alignment length	1062
+## Avg. sequence length	1061.31
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1062
+## Shortest seq. name	'Fjohn'
+## Shortest seq. length	1056
+## Input filename	'368folC.fas.phy'
+## Total sequences	13
+## Alignment length	1176
+## Avg. sequence length	1149
+## Longest seq. name	'Fpsych'
+## Longest seq. length	1176
+## Shortest seq. name	'Naup'
+## Shortest seq. length	879
+## Input filename	'369glnS.fas.phy'
+## Total sequences	13
+## Alignment length	1524
+## Avg. sequence length	1513.62
+## Longest seq. name	'Fbranch'
+## Longest seq. length	1524
+## Shortest seq. name	'Orien'
+## Shortest seq. length	1401
+## Input filename	'370rpoC.fas.phy'
+## Total sequences	13
+## Alignment length	4221
+## Avg. sequence length	4213.62
+## Longest seq. name	'Orien'
+## Longest seq. length	4221
+## Shortest seq. name	'Naup'
+## Shortest seq. length	4137
+## Input filename	'371rpoB.fas.phy'
+## Total sequences	13
+## Alignment length	3804
+## Avg. sequence length	3798.46
+## Longest seq. name	'Amer'
+## Longest seq. length	3804
+## Shortest seq. name	'Orien'
+## Shortest seq. length	3735
+## Input filename	'378tuf.fas.phy'
+## Total sequences	13
+## Alignment length	1185
+## Avg. sequence length	1184.77
+## Longest seq. name	'Fjohn'
+## Longest seq. length	1185
+## Shortest seq. name	'Fbranch'
+## Shortest seq. length	1182
+## Input filename	'380ileS.fas.phy'
+## Total sequences	13
+## Alignment length	3381
+## Avg. sequence length	3375
+## Longest seq. name	'Madar'
+## Longest seq. length	3381
+## Shortest seq. name	'Crypt'
+## Shortest seq. length	3315
+## Input filename	'387accA.fas.phy'
+## Total sequences	13
+## Alignment length	951
+## Avg. sequence length	943.846
+## Longest seq. name	'Fpsych'
+## Longest seq. length	951
+## Shortest seq. name	'Germ'
+## Shortest seq. length	858
+## Input filename	'388sdhB.fas.phy'
+## Total sequences	13
+## Alignment length	738
+## Avg. sequence length	738
+## Longest seq. name	'Fcolum'
+## Longest seq. length	738
+## Shortest seq. name	'Fcolum'
+## Shortest seq. length	738
+## Input filename	'430rpoD.fas.phy'
+## Total sequences	13
+## Alignment length	861
+## Avg. sequence length	861
+## Longest seq. name	'Germ'
+## Longest seq. length	861
+## Shortest seq. name	'Germ'
+## Shortest seq. length	861
