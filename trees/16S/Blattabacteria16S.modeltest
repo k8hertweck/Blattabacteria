@@ -1,0 +1,419 @@
+-------------------------- jModeltest 2.1.6 v20140903 --------------------------
+(c) 2011-onwards D. Darriba, G.L. Taboada, R. Doallo and D. Posada,
+(1) Department of Biochemistry, Genetics and Immunology
+    University of Vigo, 36310 Vigo, Spain.
+(2) Department of Electronics and Systems
+    University of A Coruna, 15071 A Coruna, Spain.
+e-mail: ddarriba@udc.es, dposada@uvigo.es
+--------------------------------------------------------------------------------
+ 
+Thu Dec 11 08:21:26 CST 2014
+Mac OS X 10.10.1, arch: x86_64, bits: 64, numcores: 12
+ 
+jModelTest 2.1.6 v20140903
+Copyright (C) 2011 D. Darriba, G.L. Taboada, R. Doallo and D. Posada
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it under certain conditions
+ 
+Notice: This program may contain errors. Please inspect results carefully.
+ 
+--------------------------------------------------------------------------------
+Citation: Darriba D, Taboada GL, Doallo R and Posada D. 2012.
+          "jModelTest 2: more models, new heuristics and parallel computing".
+          Nature Methods 9(8), 772.
+--------------------------------------------------------------------------------
+ 
+Reading data file "Blattabacteria16S.phy"... OK.
+  number of sequences: 21
+  number of sites: 2050
+ 
+ 
+---------------------------------------------------------------
+*                                                             *
+*        COMPUTATION OF LIKELIHOOD SCORES WITH PHYML          *
+*                                                             *
+---------------------------------------------------------------
+ 
+::Settings::
+ 
+ Phyml version = 3.0
+ Phyml binary = PhyML_3.0_macOS_i386
+ Phyml path = /Applications/jmodeltest-2.1.6/exe/phyml/
+ Candidate models = 12
+   number of substitution schemes = 3
+   including models with equal/unequal base frequencies (+F)
+   including only models without a proportion of invariable sites
+   including models with/without rate variation among sites (+G) (nCat = 4)
+ Optimized free parameters (K) = substitution parameters + 39 branch lengths + topology 
+ Base tree for likelihood calculations = ML tree
+ Tree topology search operation = NNI
+ 
+ 
+::Progress::
+ 
+Model 		 Exec. Time 	 Total Time 	 -lnL
+-------------------------------------------------------------------------
+K80		00h:00:01:08	00h:00:02:09	7945.1224
+HKY		00h:00:01:08	00h:00:02:09	7920.3649
+SYM		00h:00:01:08	00h:00:02:09	7915.0987
+GTR		00h:00:02:01	00h:00:03:02	7888.4701
+F81		00h:00:02:02	00h:00:03:03	8023.9061
+JC		00h:00:02:02	00h:00:03:03	8055.6415
+SYM+G		00h:00:05:01	00h:00:06:02	7589.2527
+HKY+G		00h:00:05:01	00h:00:06:02	7587.6347
+GTR+G		00h:00:05:04	00h:00:06:05	7566.4035
+JC+G		00h:00:08:03	00h:00:09:04	7741.6747
+K80+G		00h:00:08:03	00h:00:09:04	7617.2355
+F81+G		00h:00:16:06	00h:00:17:07	7709.8708
+ 
+::Results::
+ 
+   Model = JC
+   partition = 000000
+   -lnL = 8055.6415
+   K = 40 
+ 
+   Model = JC+G
+   partition = 000000
+   -lnL = 7741.6747
+   K = 41
+   gamma shape = 0.2290 
+ 
+   Model = F81
+   partition = 000000
+   -lnL = 8023.9061
+   K = 43
+   freqA = 0.2889 
+   freqC = 0.1956 
+   freqG = 0.2704 
+   freqT = 0.2451  
+ 
+   Model = F81+G
+   partition = 000000
+   -lnL = 7709.8708
+   K = 44
+   freqA = 0.2869 
+   freqC = 0.1948 
+   freqG = 0.2668 
+   freqT = 0.2515 
+   gamma shape = 0.2170 
+ 
+   Model = K80
+   partition = 010010
+   -lnL = 7945.1224
+   K = 41
+   kappa = 2.7002 (ti/tv = 1.3501) 
+ 
+   Model = K80+G
+   partition = 010010
+   -lnL = 7617.2355
+   K = 42
+   kappa = 3.6030 (ti/tv = 1.8015)
+   gamma shape = 0.2360 
+ 
+   Model = HKY
+   partition = 010010
+   -lnL = 7920.3649
+   K = 44
+   freqA = 0.2821 
+   freqC = 0.1994 
+   freqG = 0.2667 
+   freqT = 0.2518 
+   kappa = 2.6230 (ti/tv = 1.3288) 
+ 
+   Model = HKY+G
+   partition = 010010
+   -lnL = 7587.6347
+   K = 45
+   freqA = 0.2850 
+   freqC = 0.1934 
+   freqG = 0.2647 
+   freqT = 0.2568 
+   kappa = 3.5964 (ti/tv = 1.8181)
+   gamma shape = 0.2320 
+ 
+   Model = SYM
+   partition = 012345
+   -lnL = 7915.0987
+   K = 45
+   R(a) [AC] =  0.7177
+   R(b) [AG] =  2.4331
+   R(c) [AT] =  1.5891
+   R(d) [CG] =  0.5636
+   R(e) [CT] =  2.8878
+   R(f) [GT] =  1.0000 
+ 
+   Model = SYM+G
+   partition = 012345
+   -lnL = 7589.2527
+   K = 46
+   R(a) [AC] =  0.6910
+   R(b) [AG] =  3.7771
+   R(c) [AT] =  1.8937
+   R(d) [CG] =  0.3972
+   R(e) [CT] =  3.5066
+   R(f) [GT] =  1.0000
+   gamma shape = 0.2370 
+ 
+   Model = GTR
+   partition = 012345
+   -lnL = 7888.4700
+   K = 48
+   freqA = 0.2864 
+   freqC = 0.1995 
+   freqG = 0.2819 
+   freqT = 0.2323 
+   R(a) [AC] =  0.7682
+   R(b) [AG] =  2.1603
+   R(c) [AT] =  1.5641
+   R(d) [CG] =  0.6162
+   R(e) [CT] =  3.4014
+   R(f) [GT] =  1.0000 
+ 
+   Model = GTR+G
+   partition = 012345
+   -lnL = 7566.4035
+   K = 49
+   freqA = 0.2810 
+   freqC = 0.1978 
+   freqG = 0.2794 
+   freqT = 0.2418 
+   R(a) [AC] =  0.8032
+   R(b) [AG] =  3.2924
+   R(c) [AT] =  1.8696
+   R(d) [CG] =  0.4834
+   R(e) [CT] =  4.5710
+   R(f) [GT] =  1.0000
+   gamma shape = 0.2400 
+ 
+
+Computation of likelihood scores completed. It took 00h:00:17:08.
+
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*             AKAIKE INFORMATION CRITERION (AIC)              *
+*                                                             *
+---------------------------------------------------------------
+ 
+ Model selected: 
+   Model = GTR+G
+   partition = 012345
+   -lnL = 7566.4035
+   K = 49
+   freqA = 0.2810 
+   freqC = 0.1978 
+   freqG = 0.2794 
+   freqT = 0.2418 
+   R(a) [AC] =  0.8032
+   R(b) [AG] =  3.2924
+   R(c) [AT] =  1.8696
+   R(d) [CG] =  0.4834
+   R(e) [CT] =  4.5710
+   R(f) [GT] =  1.0000
+   gamma shape = 0.2400 
+ 
+Tree for the best AIC model = (EcNA114:0.00073184,(EcJJ1886:0.00000001,((EcCloneDi2:0.00300993,EcCloneDi1:0.00085259):0.00075527,((((Fpsych:0.02184147,(Fjohn:0.04382697,Fbranch:0.03294317):0.00672926):0.01931958,(Findic:0.05807662,Fcolum:0.02621703):0.01480122):0.10774694,(Naup:0.00502675,(((Amer:0.01255142,Orien:0.00751859):0.01667306,(Madar:0.03923422,Crypt:0.02253335):0.00925553):0.01203876,(Pane:0.00831191,(Giga:0.01429795,Germ:0.01269042):0.00348767):0.00286800):0.00722356):0.16663455):0.96053367,(EcSe11:0.00152072,(EcCFT073:0.00151141,EcUMNK88:0.00225578):0.00000062):0.00000080):0.00686591):0.00000007):0.00000001,EcUM146:0.00146885);
+ 
+ 
+* AIC MODEL SELECTION : Selection uncertainty
+ 
+Model             -lnL    K      AIC       delta       weight   cumWeight
+------------------------------------------------------------------------- 
+GTR+G       7566.40352   49  15230.807040   0.000000    1.000000   1.000000 
+HKY+G       7587.63469   45  15265.269380  34.462340   3.29e-008   1.000000 
+SYM+G       7589.25268   46  15270.505360  39.698320   2.40e-009   1.000000 
+K80+G       7617.23552   42  15318.471040  87.664000   9.20e-020   1.000000 
+F81+G       7709.87076   44  15507.741520  276.934480   7.32e-061   1.000000 
+JC+G        7741.67469   41  15565.349380  334.542340   2.26e-073   1.000000 
+GTR         7888.47005   48  15872.940100  642.133060   3.65e-140   1.000000 
+SYM         7915.09872   45  15920.197440  689.390400   2.00e-150   1.000000 
+HKY         7920.36491   44  15928.729820  697.922780   2.81e-152   1.000000 
+K80         7945.12241   41  15972.244820  741.437780   9.97e-162   1.000000 
+F81         8023.90606   43  16133.812120  903.005080   8.22e-197   1.000000 
+JC          8055.64147   40  16191.282940  960.475900   2.72e-209   1.000000
+-------------------------------------------------------------------------
+-lnL:	negative log likelihod
+ K:	number of estimated parameters
+ AIC:	Akaike Information Criterion
+ delta:	AIC difference
+ weight:	AIC weight
+ cumWeight:	cumulative AIC weight
+
+Model selection results also available at the "Model > Show model table" menu
+ 
+ 
+* AIC MODEL SELECTION : Confidence interval
+ 
+There are 12 models in the 100% confidence interval: [ GTR+G HKY+G SYM+G K80+G F81+G JC+G GTR SYM HKY K80 F81 JC ] 
+ 
+ 
+* AIC MODEL SELECTION : Parameter importance
+ 
+Parameter   Importance
+----------------------
+fA	    1.0000
+fC	    1.0000
+fG	    1.0000
+fT	    1.0000
+kappa	    0.0000
+titv	    0.0000
+rAC	    1.0000
+rAG	    1.0000
+rAT	    1.0000
+rCG	    1.0000
+rCT	    1.0000
+rGT	    1.0000
+alpha(G)	    1.0000
+----------------------
+Values have been rounded.
+ (I):  considers only +I models.
+ (G):  considers only +G models.
+ (IG): considers only +I+G models.
+ 
+ 
+* AIC MODEL SELECTION : Model averaged estimates
+ 
+           Model-averaged
+Parameter       estimates
+-------------------------
+fA	       0.2810
+fC	       0.1978
+fG	       0.2794
+fT	       0.2418
+kappa	       3.5965
+titv	       1.8181
+rAC	       0.8032
+rAG	       3.2924
+rAT	       1.8696
+rCG	       0.4834
+rCT	       4.5710
+rGT	       1.0000
+alpha(G)	       0.2400
+-------------------------
+Numbers have been rounded.
+ (I):  considers only +I models.
+ (G):  considers only +G models.
+ (IG): considers only +I+G models.
+ 
+ 
+* AIC MODEL SELECTION : Best Model's command line
+ 
+phyml  -i /var/folders/m1/pws5jswx4bz1t1jdhvbyfctc0000gp/T/jmodeltest278345520890544851.phy -d nt -n 1 -b 0 --run_id GTR+G -m 012345 -f m -c 4 -a e --no_memory_check -o tlr -s NNI
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*             BAYESIAN INFORMATION CRITERION (BIC)            *
+*                                                             *
+---------------------------------------------------------------
+ 
+ Sample size: 2050.0
+ 
+ Model selected: 
+   Model = GTR+G
+   partition = 012345
+   -lnL = 7566.4035
+   K = 49
+   freqA = 0.2810 
+   freqC = 0.1978 
+   freqG = 0.2794 
+   freqT = 0.2418 
+   R(a) [AC] =  0.8032
+   R(b) [AG] =  3.2924
+   R(c) [AT] =  1.8696
+   R(d) [CG] =  0.4834
+   R(e) [CT] =  4.5710
+   R(f) [GT] =  1.0000
+   gamma shape = 0.2400 
+ 
+Tree for the best BIC model = (EcNA114:0.00073184,(EcJJ1886:0.00000001,((EcCloneDi2:0.00300993,EcCloneDi1:0.00085259):0.00075527,((((Fpsych:0.02184147,(Fjohn:0.04382697,Fbranch:0.03294317):0.00672926):0.01931958,(Findic:0.05807662,Fcolum:0.02621703):0.01480122):0.10774694,(Naup:0.00502675,(((Amer:0.01255142,Orien:0.00751859):0.01667306,(Madar:0.03923422,Crypt:0.02253335):0.00925553):0.01203876,(Pane:0.00831191,(Giga:0.01429795,Germ:0.01269042):0.00348767):0.00286800):0.00722356):0.16663455):0.96053367,(EcSe11:0.00152072,(EcCFT073:0.00151141,EcUMNK88:0.00225578):0.00000062):0.00000080):0.00686591):0.00000007):0.00000001,EcUM146:0.00146885);
+ 
+ 
+* BIC MODEL SELECTION : Selection uncertainty
+ 
+Model             -lnL    K      BIC       delta       weight   cumWeight
+------------------------------------------------------------------------- 
+GTR+G       7566.40352   49  15506.461199   0.000000    0.997466   0.997466 
+HKY+G       7587.63469   45  15518.421158  11.959960    0.002522   0.999989 
+SYM+G       7589.25268   46  15529.282733  22.821535   1.10e-005   1.000000 
+K80+G       7617.23552   42  15554.746033  48.284834   3.27e-011   1.000000 
+F81+G       7709.87076   44  15755.267703  248.806505   9.36e-055   1.000000 
+JC+G        7741.67469   41  15795.998778  289.537579   1.34e-063   1.000000 
+GTR         7888.47005   48  16142.968663  636.507465   6.07e-139   1.000000 
+SYM         7915.09872   45  16173.349218  666.888020   1.53e-145   1.000000 
+HKY         7920.36491   44  16176.256003  669.794805   3.59e-146   1.000000 
+K80         7945.12241   41  16202.894218  696.433019   5.89e-152   1.000000 
+F81         8023.90606   43  16375.712708  869.251510   1.75e-189   1.000000 
+JC          8055.64147   40  16416.306743  909.845544   2.68e-198   1.000000
+-------------------------------------------------------------------------
+-lnL:	negative log likelihod
+K:	number of estimated parameters
+BIC:	Bayesian Information Criterion
+delta:	BIC difference
+weight:	BIC weight
+cumWeight:	cumulative BIC weight
+
+Model selection results also available at the "Model > Show model table" menu
+ 
+ 
+* BIC MODEL SELECTION : Confidence interval
+ 
+There are 12 models in the 100% confidence interval: [ GTR+G HKY+G SYM+G K80+G F81+G JC+G GTR SYM HKY K80 F81 JC ] 
+ 
+ 
+* BIC MODEL SELECTION : Parameter importance
+ 
+Parameter   Importance
+----------------------
+fA	    1.0000
+fC	    1.0000
+fG	    1.0000
+fT	    1.0000
+kappa	    0.0025
+titv	    0.0025
+rAC	    0.9975
+rAG	    0.9975
+rAT	    0.9975
+rCG	    0.9975
+rCT	    0.9975
+rGT	    0.9975
+alpha(G)	    1.0000
+----------------------
+Values have been rounded.
+ (I):  considers only +I models.
+ (G):  considers only +G models.
+ (IG): considers only +I+G models.
+ 
+ 
+* BIC MODEL SELECTION : Model averaged estimates
+ 
+           Model-averaged
+Parameter       estimates
+-------------------------
+fA	       0.2810
+fC	       0.1978
+fG	       0.2794
+fT	       0.2418
+kappa	       3.5965
+titv	       1.8181
+rAC	       0.8032
+rAG	       3.2924
+rAT	       1.8696
+rCG	       0.4834
+rCT	       4.5710
+rGT	       1.0000
+alpha(G)	       0.2400
+-------------------------
+Numbers have been rounded.
+ (I):  considers only +I models.
+ (G):  considers only +G models.
+ (IG): considers only +I+G models.
+ 
+ 
+* BIC MODEL SELECTION : Best Model's command line
+ 
+phyml  -i /var/folders/m1/pws5jswx4bz1t1jdhvbyfctc0000gp/T/jmodeltest278345520890544851.phy -d nt -n 1 -b 0 --run_id GTR+G -m 012345 -f m -c 4 -a e --no_memory_check -o tlr -s NNI

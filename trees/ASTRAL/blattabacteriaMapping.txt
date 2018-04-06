@@ -1,0 +1,13 @@
+Fjohn:Fjohn
+Fcolum:Fcolum
+Findic:Findic
+Fpsych:Fpsych
+Fbranch:Fbranch
+Amer:AmerB,AmerB2,Amer
+Orien:OrienB,OrienB2,Orien
+Crypt:CryptB,CryptB2,Crypt
+Madar:MadarB,MadarB2,Madar
+Germ:GermB,GermB2,Germ
+Naup:NaupB,NaupB2,Naup
+Giga:GigaB,GigaB2,Giga
+Pane:PaneB,PaneB2,Pane
